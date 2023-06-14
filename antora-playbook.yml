@@ -1,0 +1,15 @@
+site:
+  title: Test Antora Docs by Milijana & Alen
+  start_page: project-a::index.adoc
+content:
+  sources:
+  - url: C:\Users\brisal\source\repos\edu\antora-demo\antora-test-2\Project_A
+    branches: HEAD
+    start_path: docs
+  - url: C:\Users\brisal\source\repos\edu\antora-demo\antora-test-2\Project_B
+    branches: HEAD
+    start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
