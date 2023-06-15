@@ -1,3 +1,6 @@
+antora:
+  extensions:
+  - require: '@antora/lunr-extension'
 site:
   title: Test Antora Docs by Milijana & Alen
   start_page: project-a::index.adoc
